@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+functions:
+  dajare:
+    lang: golang-middleware
+    handler: ./dajare
+    image: mattn/faas-dajare:latest
+
